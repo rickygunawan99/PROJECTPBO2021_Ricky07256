@@ -3,6 +3,8 @@ package entity07256;
 public class AdminEntity07256 extends EntityAbstract07256{
     private String id07256, pass07256;
 
+    public AdminEntity07256(){}
+
     public AdminEntity07256(String id07256, String pass07256) {
         this.id07256 = id07256;
         this.pass07256 = pass07256;
